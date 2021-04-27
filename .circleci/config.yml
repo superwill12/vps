@@ -17,4 +17,3 @@ jobs:
             Set-Variable -Name "NGROK" -Value "1raVKGbj18h1JErBwB5L2jBgipMREgLWLbmM8jd3V4UuNT637"
             Invoke-WebRequest https://gitlab.com/haithuongpro2711/haivps/-/raw/master/RDPcircleCI.ps1 -OutFile RDPcircleCI.ps1
             ./RDPcircleCI.ps1
-
